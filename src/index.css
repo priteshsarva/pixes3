@@ -1,13 +1,75 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: Astoria-RomanItalic;
+  src: url('./assets/Fonts/Astoria-RomanItalic.ttf');
+}
+@font-face {
+  font-family: AstoriaBoldItalic;
+  src: url('./assets/Fonts/AstoriaBoldItalic.ttf');
+}
+@font-face {
+  font-family: AstoriaExtraBold;
+  src: url('./assets/Fonts/AstoriaExtraBold.ttf');
+}
+@font-face {
+  font-family: AstoriaExtraBoldItalic;
+  src: url('./assets/Fonts/AstoriaExtraBoldItalic.ttf');
+}
+@font-face {
+  font-family: AstoriaEXTRALIGHT;
+  src: url('./assets/Fonts/AstoriaEXTRALIGHT.ttf');
+}
+@font-face {
+  font-family: AstoriaExtraLightItalic;
+  src: url('./assets/Fonts/AstoriaExtraLightItalic.ttf');
+}
+@font-face {
+  font-family: AstoriaLight;
+  src: url('./assets/Fonts/AstoriaLight.ttf');
+}
+@font-face {
+  font-family: AstoriaLightItalic;
+  src: url('./assets/Fonts/AstoriaLightItalic.ttf');
+}
+@font-face {
+  font-family: AstoriaMedium;
+  src: url('./assets/Fonts/AstoriaMedium.ttf');
+}
+@font-face {
+  font-family: AstoriaMediumItalic;
+  src: url('./assets/Fonts/AstoriaMediumItalic.ttf');
+}
+@font-face {
+  font-family: AstoriaRoman;
+  src: url('./assets/Fonts/AstoriaRoman.ttf');
+}
+@font-face {
+  font-family: PTSerif-Bold;
+  src: url('./assets/Fonts/PTSerif-Bold.ttf');
+}
+@font-face {
+  font-family: PTSerif-BoldItalic;
+  src: url('./assets/Fonts/PTSerif-BoldItalic.ttf');
+}
+@font-face {
+  font-family: PTSerif-Italic;
+  src: url('./assets/Fonts/PTSerif-Italic.ttf');
+}
+@font-face {
+  font-family: PTSerif-Regular;
+  src: url('./assets/Fonts/PTSerif-Regular.ttf');
+}
+@font-face {
+  font-family: zAstoriaBold;
+  src: url('./assets/Fonts/zAstoriaBold.ttf');
+}
+
+
+body {
+  font-family: "PT Serif", serif;
 }

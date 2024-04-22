@@ -1,0 +1,388 @@
+.lookingfor {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: #ffdec1;
+    overflow: hidden;
+}
+
+.lookingforc1 {
+    position: absolute;
+    width: 250px;
+    left: 10%;
+}
+
+.lookingforc2 {
+    position: absolute;
+    width: 250px;
+    top: 100px;
+    left: -20%;
+}
+
+.lookingforc3 {
+    position: absolute;
+    width: 250px;
+    top: 200px;
+    right: 10%;
+}
+
+.lookingforc4 {
+    position: absolute;
+    width: 250px;
+    top: 30%;
+    left: 0;
+}
+
+.lookingforfrontStoneRightbottom {
+    position: absolute;
+    width: 300px;
+    bottom: -20px;
+    right: -20px;
+}
+
+.lookingforfrontTree {
+    position: absolute;
+    width: 200%;
+    bottom: calc(-200% / 30);
+    left: calc(-200% / 4);
+
+}
+
+.lookingforfrontcloudbottom {
+    position: absolute;
+    width: 125%;
+    bottom: calc(-125% / 8);
+    left: calc(-125% / 6);
+
+}
+
+.lookingform1 {
+    position: absolute;
+    width: 250%;
+    left: calc(-150% / 4);
+    bottom: 10px;
+}
+
+.lookingform2 {
+    position: absolute;
+    width: 250%;
+    left: calc(-150% / 2.2);
+    bottom: 100px;
+}
+
+.lookingform3 {
+    position: absolute;
+    width: 250%;
+    left: calc(-150% / 10);
+    bottom: 80px;
+
+}
+
+.lookingformanAndStone {
+    position: absolute;
+    width: 90%;
+    bottom: -30px;
+    right: -120px;
+    /* display: none; */
+
+}
+
+.lookingfortree {
+    position: absolute;
+    height: 100%;
+    right: calc(-100%/3);
+    bottom: calc(100%/8);
+}
+
+.lookingforBottomHeading {
+    position: absolute;
+    bottom: 11%;
+    font-family: 'zAstoriaBold';
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+    width: 100vw;
+}
+
+.lookingforTittles {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: center;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.tooltip {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: .3rem .5rem;
+}
+
+.tooltiptittle {
+    text-wrap: nowrap;
+    background: rgba(255, 255, 255, 0.3);
+    padding: .5rem .7rem;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: fit-content;
+    font-size: .8rem;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.tooltip:hover .tooltiptittle {
+    background: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+}
+
+.tooltiptext {
+    visibility: hidden;
+    position: absolute;
+    z-index: 5;
+    background: rgba(255, 255, 255, 1);
+    padding: .5rem .7rem;
+    border-radius: 20px;
+    text-wrap: wrap;
+    width: 150%;
+    margin-top: 2.8rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: .8em;
+}
+
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+
+    .lookingforTittles {
+        width: 60%;
+        left: 10%;
+        top: 15%;
+        transform: translate(0%, 0%);
+    }
+    .tooltiptext{
+        font-size: 1rem;
+    }
+    .tooltiptittle{
+        font-size: 1rem;
+    }
+
+    .lookingforc1 {
+        position: absolute;
+        width: 350px;
+        left: 100px;
+        /* display: none; */
+    }
+
+    .lookingforc2 {
+        position: absolute;
+        width: 350px;
+        top: 200px;
+        left: -80px;
+        /* display: none; */
+    }
+
+    .lookingforc3 {
+        position: absolute;
+        width: 250px;
+        top: 200px;
+        right: 20px;
+        /* display: none; */
+    }
+
+    .lookingforc4 {
+        position: absolute;
+        width: 400px;
+        top: 400px;
+        left: 200px;
+        /* display: none; */
+    }
+
+    .lookingforfrontStoneRightbottom {
+        position: absolute;
+        width: 500px;
+        bottom: 10px;
+        right: -80px;
+        /* display: none; */
+    }
+
+    .lookingforfrontTree {
+        position: absolute;
+        width: 200%;
+        bottom: calc(-200% / 24);
+        left: calc(-200% / 4);
+        /* display: none; */
+
+    }
+
+    .lookingforfrontcloudbottom {
+        position: absolute;
+        width: 125%;
+        bottom: calc(-125% / 6);
+        left: calc(-125% / 6);
+        /* display: none; */
+
+    }
+
+    .lookingform1 {
+        position: absolute;
+        width: 250%;
+        left: calc(-150% / 4);
+        bottom: -20px;
+        /* display: none; */
+    }
+
+    .lookingform2 {
+        position: absolute;
+        width: 250%;
+        left: calc(-150% / 2.2);
+        bottom: 50px;
+        /* display: none; */
+    }
+
+    .lookingform3 {
+        position: absolute;
+        width: 250%;
+        left: calc(-150% / 4);
+        bottom: -70px;
+        /* display: none; */
+
+    }
+
+    .lookingformanAndStone {
+        position: absolute;
+        width: 50%;
+        bottom: 30px;
+        right: -50px;
+        /* display: none; */
+
+    }
+
+    .lookingfortree {
+        position: absolute;
+        height: 100%;
+        right: calc(-100%/5);
+        bottom: calc(100%/8);
+        /* display: none; */
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+    .lookingforc1 {
+        position: absolute;
+        width: 30%;
+        left: 2%;
+        /* display: none; */
+    }
+
+    .lookingforc2 {
+        position: absolute;
+        width: 30%;
+        top: 25%;
+        left: -7%;
+        /* display: none; */
+    }
+
+    .lookingforc3 {
+        position: absolute;
+        width: 28%;
+        top: 28%;
+        right: 5%;
+        /* display: none; */
+    }
+
+    .lookingforc4 {
+        position: absolute;
+        width: 30%;
+        top: 20%;
+        left: 30%;
+        /* display: none; */
+    }
+
+    .lookingforfrontStoneRightbottom {
+        position: absolute;
+        width: 350px;
+        bottom: 10px;
+        right: -30px;
+        /* display: none; */
+    }
+
+    .lookingforfrontTree {
+        position: absolute;
+        width: 150%;
+        bottom: calc(-150% / 6);
+        left: calc(-150% / 4);
+        /* display: none; */
+
+    }
+
+    .lookingforfrontcloudbottom {
+        position: absolute;
+        width: 125%;
+        bottom: calc(-125% / 1.8);
+        left: calc(-125% / 6);
+        /* display: none; */
+
+    }
+
+    .lookingform1 {
+        position: absolute;
+        width: 125%;
+        left: calc(-100% / 8);
+        bottom: 0px;
+        /* display: none; */
+    }
+
+    .lookingform2 {
+        position: absolute;
+        width: 125%;
+        left: calc(-125% / 7);
+        bottom: 100px;
+        /* display: none; */
+    }
+
+    .lookingform3 {
+        position: absolute;
+        width: 125%;
+        left: calc(-150% / 30);
+        bottom: 20px;
+        /* display: none; */
+
+    }
+
+    .lookingformanAndStone {
+        position: absolute;
+        width: 30%;
+        bottom: 30px;
+        right: 0px;
+        /* display: none; */
+
+    }
+
+    .lookingfortree {
+        position: absolute;
+        height: 90%;
+        right: calc(-80%/12);
+        bottom: calc(90%/4);
+        /* display: none; */
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}
