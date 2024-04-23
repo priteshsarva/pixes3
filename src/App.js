@@ -5,8 +5,10 @@ import LookingFor from './components/lookingFor/LookingFor';
 
 function App() {
   return <>
-    {/* <LoadingScreen /> */}
-    <LookingFor /> 
+    <div className="mainroot">
+      <LoadingScreen />
+      <LookingFor />
+    </div>
   </>
 
 }

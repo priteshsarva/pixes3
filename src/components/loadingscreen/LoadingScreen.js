@@ -38,6 +38,20 @@ const LoadingScreen = () => {
 
   window.addEventListener('load', cloudparralex())
 
+  const handleClickLoadingScreen = () => {
+
+    var loadingscreen = document.querySelector('.loadingscreen')
+    loadingscreen.style.filter = 'blur(10px)'
+
+
+
+    gsap.to('.loadingscreen', {
+      y: '-150vh',
+      duration: 1.5,
+    })
+
+  }
+
 
   var tl = gsap.timeline({});
   useGSAP(() => {
@@ -65,6 +79,8 @@ const LoadingScreen = () => {
       duration: 2,
       ease: Power3,
     });
+
+
   });
 
 
@@ -82,7 +98,7 @@ const LoadingScreen = () => {
           <p className='lsdes'>we offer a comprehensive range of services tailored to elevate our clients' digital presence. From captivating website development that seamlessly blends aesthetics with functionality to eye-catching graphic design solutions, we ensure a cohesive brand identity across all platforms. Our expertise extends to social media handling, where we craft engaging content strategies to maximize reach and engagement. Additionally, our skilled team excels in video editing, creating compelling visual narratives that resonate with audiences. With a keen focus on user experience and interface design, we deliver intuitive solutions that drive user engagement and satisfaction. At Pixes.in, we're committed to transforming visions into digital realities.
           </p>
         </div>
-        <a href="/" className='nextButton'>Next <span><i className="ri-arrow-right-line"></i></span></a>
+        <button className='nextButton' onClick={handleClickLoadingScreen}>Next <span><i className="ri-arrow-right-line"></i></span></button>
 
       </div>
     </>

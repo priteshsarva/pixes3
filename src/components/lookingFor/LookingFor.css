@@ -1,9 +1,11 @@
 .lookingfor {
     position: relative;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background: #ffdec1;
     overflow: hidden;
+    margin-top: -100vh;
+    z-index: 8;
 }
 
 .lookingforc1 {
@@ -91,7 +93,7 @@
     position: absolute;
     height: 100%;
     right: calc(-100%/3);
-    bottom: calc(100%/8);
+    bottom: calc(100%);
 }
 
 .lookingforBottomHeading {
@@ -371,9 +373,9 @@
 
     .lookingfortree {
         position: absolute;
-        height: 90%;
+        height: 100%;
         right: calc(-80%/12);
-        bottom: calc(90%/4);
+        bottom: calc(90%/4.5);
         /* display: none; */
     }
 }
