@@ -10,7 +10,7 @@
     overflow: hidden;
     z-index: 9;
     filter: blur(0px);
-    transition: all 1.5s cubic-bezier(.5, -0.04, .73, 1);
+    transition: all 1.5s cubic-bezier(.4, -0.04, .73, 1);
 }
 
 #parallax {
@@ -81,4 +81,6 @@
     color: black;
     text-decoration: none;
     font-size: clamp(4pt, 5vw, 24pt);
+    background: none;
+    border: none;   
 }

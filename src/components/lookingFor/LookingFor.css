@@ -77,7 +77,6 @@
     width: 250%;
     left: calc(-150% / 10);
     bottom: 80px;
-
 }
 
 .lookingformanAndStone {
@@ -86,7 +85,6 @@
     bottom: -30px;
     right: -120px;
     /* display: none; */
-
 }
 
 .lookingfortree {
@@ -132,6 +130,7 @@
     border-radius: 20px;
     width: fit-content;
     font-size: .8rem;
+    color: black;
 }
 
 .tooltip:hover .tooltiptext {
